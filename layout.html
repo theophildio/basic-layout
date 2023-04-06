@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="./assets/css/layout.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <!-- navigation -->
+        <nav>
+            <div class="log">
+                <a href="#"><img src="./assets/images/web.png" alt="Logo"></a>
+            </div>
+            <ul class="menu">
+                <!-- li*5>a[href="#"]{menu-$} -->
+                <li><a href="#">menu-1</a></li>
+                <li><a href="#">menu-2</a></li>
+                <li><a href="#">menu-3</a></li>
+                <li><a href="#">menu-4</a></li>
+                <li><a href="#">menu-5</a></li>
+            </ul>
+        </nav>
+        <!-- Banner -->
+        <section class="banner">
+            <h2>welcome to our basic layout</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates officiis officia vero amet deserunt quia minima, tempore exercitationem?</p>
+            <a href="#" class="learn-btn">Learn more</a>
+        </section>
+    </header>
+    <main class="container">
+        <div class="content-area">
+            <!-- content area -->
+            <section class="about">
+                <!-- div.about-img+div.about-content -->
+                <div class="about-img">
+                    <img src="./assets/images/bg.jpg" alt="">
+                </div>
+                <div class="about-content">
+                    <h3>about us</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, aliquam. Necessitatibus vel repudiandae ducimus iste ad maxime qui dolore et, similique itaque quam ea veniam ex in at doloribus repellat!</p>
+                </div>
+            </section>
+            <!-- Services -->
+            <section class="services">
+                <!-- div*4.service-item>h3{item-$}+p>lorem15 -->
+                <div class="service-item">
+                    <h3>item-1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia a, iste quidem accusantium recusandae similique!</p>
+                </div>
+                <div class="service-item">
+                    <h3>item-2</h3>
+                    <p>Consequatur adipisci dolore enim quisquam dolores non dicta, cum earum hic odio voluptatibus illum id?</p>
+                </div>
+                <div class="service-item">
+                    <h3>item-3</h3>
+                    <p>Saepe modi unde magni nam officia at sint eaque asperiores voluptatibus, consectetur, est dicta ullam?</p>
+                </div>
+                <div class="service-item">
+                    <h3>item-4</h3>
+                    <p>Dolore quod, soluta quo vel cum quas enim obcaecati ipsum minima, ad quis alias labore.</p>
+                </div>
+            </section>
+            <!-- Blog -->
+            <section class="blogs">
+                <article class="blog">
+                    <h3>blog heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe suscipit beatae.</p>
+                </article>
+                <article class="blog">
+                    <h3>blog heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe suscipit beatae.</p>
+                </article>
+                <article class="blog">
+                    <h3>blog heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe suscipit beatae.</p>
+                </article>
+            </section>
+        </div>
+        <!-- sidebar -->
+        <aside class="sidebar">
+            <div class="side-item">
+                <ul>
+                    <li>Lorem, ipsum.</li>
+                    <li>Doloremque, fuga?</li>
+                    <li>Sunt, soluta?</li>
+                    <li>Voluptatibus, quod.</li>
+                    <li>Sint, perferendis.</li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="widgets">
+            <div class="widget">
+                <h4>widget-1</h4>
+            </div>
+            <div class="widget">
+                <h4>widget-2</h4>
+            </div>
+            <div class="widget">
+                <h4>widget-3</h4>
+            </div>
+        </div>
+        <p class="copyright">
+            &copy; - 2023 | All rights reserved by <span>theophil dio</span>
+        </p>
+    </footer>
+</body>
+</html>

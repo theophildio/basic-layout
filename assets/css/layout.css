@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-header {
+    overflow: hidden;
+}
+
+.content-area {
+    width: 80%;
+    float: left;
+    background-color: #009FBD;
+    overflow: hidden;
+}
+
+.about {
+    overflow: hidden;
+    background-color: red;
+}
+
+.about-img {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-content {
+    width: 50%;
+    overflow: hidden;
+}
+
+.services {
+    overflow: hidden;
+    background-color: #77037B;
+}
+
+.service-item {
+    width: 23%;
+    float: left;
+    overflow: hidden;
+}
+
+.blogs {
+    overflow: hidden;
+}
+
+.blog {
+    width: 33%;
+    float: left;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 20%;
+    min-height: 670px;
+    float: right;
+    overflow: hidden;
+    background-color: #F9E2AF;
+}
+
+.footer {
+    width: 100%;
+    background-color: #77037B;
+    overflow: hidden;
+}
+
